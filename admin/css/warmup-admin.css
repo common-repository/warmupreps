@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .red.dashicons-before:before{
+ 	color: tomato;
+ }
+ .green.dashicons-before:before{
+ 	color: green;
+ }
+ .repeater-metabox .repeater .form-group {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.repeater-metabox .repeater {
+    width: 70%;
+}
+label.wmp-label {
+    font-weight: 600;
+    padding: 5px 10px;
+
+    display: block;
+    font-size: 14px;
+}
+.wmp-submit {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.wo_btn {
+    margin: 20px 10px;
+}

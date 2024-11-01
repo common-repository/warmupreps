@@ -1,0 +1,217 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ a:hover {
+    text-decoration: none;
+ }
+ .warmup-step{
+ 	display: none;
+ }
+ .warmup-step.active {
+ 	display: block;
+ }
+ .go-to-previous a.prev_btn {
+    font-size: 12px;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.w-heading {
+    font-weight: bold;
+}
+
+.w-p-info {
+    font-size: 15px;
+}
+.radio-toolbar {
+  margin: 10px;
+}
+
+.wmp-radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.wmp-radio-toolbar label {
+    display: inline-block;
+    background-color: white;
+    padding: 0px 10px;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+    border: 1px solid #145072;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.warm-up-heading {
+    padding:  10px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.wmp-radio-toolbar label:hover {
+  background-color: rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.wmp-radio-toolbar input[type="radio"]:focus + label {
+    border: 1px solid #145072;
+}
+
+.wmp-radio-toolbar input[type="radio"]:checked + label {
+    background-color: rgba(0,0,0,0.8);
+    border-color: #145072;
+    color: white;
+}
+.button.button-inline{
+    display: inline-block;
+}
+.w-btn,.button {
+    border: 1px solid transparent;
+    display: block;
+    width: auto;
+    color: white;
+    margin: 5px 0;
+    text-decoration: none;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.w-btn:hover,.button:hover{
+    text-decoration: none;
+}
+
+.wmp_publish_to_blog {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.wmp_publish_to_blog .warmup-response {
+    padding-left: 10px;
+}
+.go-to-previous{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+input#w-weight {
+    width: 50PX;
+    border-radius: .6em;
+}
+.w-excercises,.w-program{
+	/*display: flex;
+*/}
+#w-slider {
+	width: 80%;
+	display: block;
+	margin: 0 2% 0 20px;
+}
+.wo-c-item label {
+    padding: 0 2% 0 0;
+}
+.wo-c-item {
+	display: flex;
+	align-items: center;
+}
+.w-workout-list {
+    margin-top: 20px;
+}
+.list-group-item{
+	padding: .25em 1rem;
+	position: relative;
+	display: block;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item:first-child{
+	border-top-left-radius:.25rem;
+	border-top-right-radius:.25rem;
+}
+.list-group-item:last-child{
+	margin-bottom: 0;
+	border-bottom-right-radius:.25rem;
+	border-bottom-left-radius:.25rem;
+}
+.list-group {
+	display: flex;
+	flex-direction:column;
+	-webkit-box-orient:vertical;
+	padding-left: 0;
+	max-width: 500px;
+}
+.dashicons.spin {
+   animation: dashicons-spin 1s infinite;
+   animation-timing-function: linear;
+}
+.dashicons.hide {
+    display: none;
+}
+@keyframes dashicons-spin {
+   0% {
+      transform: rotate( 0deg );
+   }
+   100% {
+      transform: rotate( 360deg );
+   }
+}
+.wmp-notice a:after {content: "\f344";
+padding-left: 20px;
+font-family: dashicons;display:inline-block;line-height:1;
+font-weight:400;font-style:normal;speak:never;text-decoration:inherit;
+text-transform:none;text-rendering:auto;-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;width:20px;height:20px;font-size:20px;
+vertical-align:top;text-align:center;transition:color .1s ease-in;}
+
+.select-dropdown,
+.select-dropdown * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.select-dropdown {
+    position: relative;
+    background-color: #E6E6E6;
+    border-radius: 4px;
+}
+.select-dropdown select {
+    font-size: 1rem;
+    font-weight: normal;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    background-color: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    appearance: none;
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+    outline: none;
+    box-shadow: none;
+}
+.select-dropdown:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    border-top: 5px solid #aaa;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.warmup-categories {
+    margin-right: 15px;
+}
+.hide {
+    display: none;
+}
+.warm-up-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
